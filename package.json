@@ -1,0 +1,52 @@
+{
+  "name": "medical-ui",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "SET NODE_OPTIONS=--openssl-legacy-provider && nuxt",
+    "build": "SET NODE_OPTIONS=--openssl-legacy-provider && nuxt build",
+    "start": "SET NODE_OPTIONS=--openssl-legacy-provider && nuxt start",
+    "generate": "SET NODE_OPTIONS=--openssl-legacy-provider && nuxt generate",
+    "build-theme": "devextreme build",
+    "lint:js": "eslint --ext \".js,.ts,.vue\" --ignore-path .gitignore .",
+    "lint": "yarn lint:js",
+    "lintfix": "yarn lint:js --fix"
+  },
+  "dependencies": {
+    "@microsoft/signalr": "^7.0.5",
+    "@nuxtjs/axios": "^5.13.6",
+    "core-js": "^3.25.3",
+    "devextreme": "^22.2.3",
+    "devextreme-vue": "^22.2.3",
+    "file-loader": "^6.2.0",
+    "moment": "^2.29.4",
+    "nuxt": "^2.15.8",
+    "nuxt-i18n": "^6.28.1",
+    "oidc-client": "^1.11.5",
+    "oidc-client-ts": "^2.2.3",
+    "sass-embedded": "^1.58.3",
+    "sass-migrator": "^1.7.2",
+    "vue": "^2.7.10",
+    "vue-awesome-notifications": "^3.1.1",
+    "vue-document-editor": "^2.3.1",
+    "vue-jwt-decode": "^0.1.0",
+    "vue-server-renderer": "^2.7.10",
+    "vue-template-compiler": "^2.7.10",
+    "vuex-oidc": "^4.0.2"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.19.1",
+    "@nuxt/types": "^2.15.8",
+    "@nuxt/typescript-build": "^2.1.0",
+    "@nuxtjs/eslint-config-typescript": "^11.0.0",
+    "@nuxtjs/eslint-module": "^3.1.0",
+    "@nuxtjs/style-resources": "^1.2.1",
+    "dart-sass": "^1.25.0",
+    "devextreme-cli": "^1.5.0",
+    "devextreme-themebuilder": "22.2.4",
+    "eslint": "^8.24.0",
+    "eslint-plugin-nuxt": "^4.0.0",
+    "eslint-plugin-vue": "^9.5.1",
+    "sass-loader": "10.1.1"
+  }
+}

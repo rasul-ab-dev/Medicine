@@ -1,0 +1,33 @@
+export interface IHandArtery {
+  handArtery: string;
+  date: string;
+  payment: string;
+  cabinet: number;
+  patient: number;
+  rightClavicularArteryDiametr: string;
+  rightClavicularArterySpasm: string;
+  rightClavicularArteryAB: string;
+  leftClavicularArteryDiametr: string;
+  leftClavicularArterySpasm: string;
+  leftClavicularArteryAB: string;
+  rightShoulderArteryDiametr: string;
+  rightShoulderArterySpasm: string;
+  rightShoulderArteryAB: string;
+  leftShoulderArteryDiametr: string;
+  leftShoulderArterySpasm: string;
+  leftShoulderArteryAB: string;
+  rightWristArteryDiametr: string;
+  rightWristArterySpasm: string;
+  rightWristArteryAB: string;
+  leftWristArteryDiametr: string;
+  leftWristArterySpasm: string;
+  leftWristArteryAB: string;
+  rightWristHandArteryDiametr: string;
+  rightWristHandArterySpasm: string;
+  rightWristHandArteryAB: string;
+  leftWristHandArteryDiametr: string;
+  leftWristHandArterySpasm: string;
+  leftWristHandArteryAB: string;
+  result: string;
+  doctor: number;
+}

@@ -1,0 +1,30 @@
+{
+  "items": [
+    {
+      "key": "$texteditor-bg",
+      "value": "rgba(243, 243, 243, 1)"
+    },
+    {
+      "key": "$texteditor-border-color",
+      "value": "rgba(255, 255, 255, 1)"
+    },
+    {
+      "key": "$texteditor-hover-border-color",
+      "value": "rgba(255, 255, 255, 0.4)"
+    },
+    {
+      "key": "$base-border-radius",
+      "value": "10px"
+    },
+    {
+      "key": "$base-font-family",
+      "value": "\"Roboto\", sans-serif"
+    }
+  ],
+  "baseTheme": "generic.light",
+  "outputColorScheme": "custom-scheme",
+  "makeSwatch": false,
+  "version": "22.2.4",
+  "widgets": [],
+  "removeExternalResources": false
+}

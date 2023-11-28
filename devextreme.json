@@ -1,0 +1,21 @@
+{
+    "applicationEngine": "vue",
+    "build": {
+        "commands": [
+            {
+                "command": "build-theme",
+                "options": {
+                    "inputFile": "assets/themes/metadata.base.json",
+                    "outputFile": "node_modules/devextreme/dist/css/dx.custom-theme.css"
+                }
+            },
+          {
+            "command": "export-theme-vars",
+            "options": {
+              "inputFile": "assets/themes/metadata.base.json",
+              "outputFile": "assets/themes/dx.variables.scss"
+            }
+          }
+        ]
+    }
+}

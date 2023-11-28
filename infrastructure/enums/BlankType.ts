@@ -1,0 +1,22 @@
+export enum BlankType {
+  LegVeins,
+  LegArtery,
+  HandArtery,
+  ImmunofermentResult,
+  BloodThicken,
+  BloodRhesusFactor,
+  BloodThicken2,
+  BloodGlucose,
+  Rentgen,
+  Ultrasound,
+  Tomography,
+  ECG,
+  Aorta,
+  ECHOCG,
+  CommonBlank,
+  GlandUltrasound,
+  HandVein,
+  CerebralArtery,
+  InnerOrgansUltrasound,
+  FemaleGenitalsUltrasound
+}
